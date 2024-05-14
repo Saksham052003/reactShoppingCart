@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "Headphones",
+      "image": "https://th.bing.com/th/id/R.329de009afd46098ee24cb6b004a89d1?rik=CLcM1sylVTpOlg&riu=http%3a%2f%2fwww.bhphotovideo.com%2fimages%2fimages2500x2500%2fbeats_by_dr_dre_900_00108_01_studio_wireless_headphones_white_1016366.jpg&ehk=%2fBwHdKJ0eGmmpzE7oTrCNsim037FuKZAmyeWVDddWhg%3d&risl=&pid=ImgRaw&r=0",
+      "price": 345
+    },
+    {
+      "id": 2,
+      "name": "Ps5",
+      "image": "https://th.bing.com/th/id/OIP.BpNDzhpeq3nu1Pd_PMVCxwHaHa?w=500&h=500&rs=1&pid=ImgDetMain",
+      "price": 52000
+    },
+    {
+      "id": 3,
+      "name": "MacBook M1 Pro",
+      "image": "https://images.macrumors.com/t/OeY2Wj-eEvwzfMREGY4qwoO4uUY=/400x400/smart/article-new/2022/07/MacBook-Air-M2-Customer-1.jpeg",
+      "price": 152000
+    },
+    {
+        "id": 4,
+        "name": "Item 4",
+        "image": "https://images.macrumors.com/t/OeY2Wj-eEvwzfMREGY4qwoO4uUY=/400x400/smart/article-new/2022/07/MacBook-Air-M2-Customer-1.jpeg",
+        "price": 152000
+      }
+    
+  ]

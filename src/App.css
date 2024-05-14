@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+h1{
+  text-align: center;
+}
+.search-bar {
+  width: 100%;
+  max-width: 400px; /* Limit the width of the search bar */
+  padding: 10px; /* Padding inside the search bar */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  margin-bottom: 20px; /* Bottom margin to separate from other content */
+  margin-left: auto;
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+.search-bar:hover{
+  transform: scale(1.1);
+}
+
+
+.cart-message {
+  background-color: #ffffff; /* White background */
+  color: black;
+  border: 1px solid #cccccc; /* Light gray border */
+  padding: 10px; /* Padding around the message */
+  margin-bottom: 20px; /* Bottom margin to separate from other content */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Adjust the gap between cards */
+}
+
+.card {
+  width: 200px;
+  color: black;
+  border: 1px solid #ccc;
+  background-color: bisque;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px; /* Add margin around each card */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.cart {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  color: black;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+}
+
+.cart h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.cart li:last-child {
+  border-bottom: none;
+}
+
+.cart li span {
+  font-weight: bold;
+  color: #007bff; /* Color for the price */
+}
